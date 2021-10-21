@@ -7,5 +7,10 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Masood Zafar",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "hapi": "^18.1.0",
+    "joi": "^17.4.2",
+    "nes": "^10.0.2"
+  }
 }
