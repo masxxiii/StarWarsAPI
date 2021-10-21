@@ -1,0 +1,11 @@
+{
+  "name": "starwarsapi",
+  "version": "1.0.0",
+  "description": "An API to get Star Wars characters",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Masood Zafar",
+  "license": "ISC"
+}
