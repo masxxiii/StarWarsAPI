@@ -23,7 +23,7 @@ module.exports = [
                 return h.response(error).code(500);
             }
         },
-
+        tags: ['api'],
         description: "This endpoint will fetch all the characters from our database",
         response: {
 			schema: joi.array().items(schema),
@@ -68,6 +68,7 @@ module.exports = [
                 return h.response(error).code(500);
             }
         },
+        tags: ['api'],
         description: "This endpoint will fetch all male, female and genderless characters from our database",
         validate: {
             params: joi.object({
