@@ -30,7 +30,7 @@ module.exports = [
             failAction: 'log'
 		}
     }
-} ,
+},
 
 // A get route to get all our characters based on their gender.
 {
@@ -85,6 +85,19 @@ module.exports = [
 			schema: joi.array().items(schema),
             failAction: 'log'
 		}
+    }
+},
+// A get route using socket that recieves data from client and returns true
+{
+    method: 'POST',
+    path: '/message',
+    config: {
+        id: 'message',
+        handler: async (request, h) => {
+            const message = request.payload.message;
+            console.log(`Message received from client: ${message}`);
+            return true;
+        }
     }
 }
 

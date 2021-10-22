@@ -5,6 +5,7 @@ const Vision = require('vision');
 const HapiSwagger = require('hapi-swagger');
 const Pack = require('../package.json');
 var routes = require('../src/routes/routes');
+const Nes = require('nes');
 
 const startServer = async () => {
 
@@ -22,7 +23,8 @@ const startServer = async () => {
             },
     };
     
-    await server.register([Inert,Vision,
+    //Register all the plugins
+    await server.register([Inert,Vision,Nes,
         {
             plugin: HapiSwagger,
             options: swaggerOptions
