@@ -1,4 +1,4 @@
-# Todolist Backend 
+# StarWarsAPI
 
 <img src="./gitResources/1.png" align="right"
      alt="TodoList" width="150" height="150">
