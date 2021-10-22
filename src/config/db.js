@@ -17,6 +17,6 @@ const charactersSchema = {
 };
 
 //Creating a new collection based on schema
-const charactersCollection = mongoose.model("Characters", charactersSchema, 'Characters');
+const charactersCollection = mongoose.model("Characters", charactersSchema, "Characters");
 
 module.exports = charactersCollection;

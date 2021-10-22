@@ -14,6 +14,7 @@ const startServer = async () => {
     await server.start();
     console.log('Server is running on %s.', server.info.port);
 
+    //our routes
     server.route(routes);
 };
 
