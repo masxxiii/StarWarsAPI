@@ -1,4 +1,7 @@
-
+//Modules
+const joi = require('@hapi/joi');
+const charactersCollection = require('../config/db');
+const schema = require('../joi/schema')
 
 module.exports = [
 
