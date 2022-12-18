@@ -58,7 +58,7 @@ Similarly using the dynamic route  **/{gender}** we can search the database base
   <img src="./gitResources/4.png" alt="result" width="750">
 </p>
 
-The swagger documentation of our API is in the **http://localhost:3000/documentation** route. 
+The swagger documentation of our API can be visied under **http://localhost:3000/documentation** route. 
 
 <p align="center">
   <img src="./gitResources/5.png" alt="result" width="750">
